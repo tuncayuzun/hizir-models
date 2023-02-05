@@ -3,35 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <version>1.0-SNAPSHOT</version>
     <parent>
         <groupId>com.talllstech.hizir.model</groupId>
         <artifactId>hizir-models</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>aid-material</artifactId>
+    <artifactId>common-models</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.talllstech.hizir.model</groupId>
-            <artifactId>common-models</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>a0jmajksabqs2-artifactory-primary-0-snapshots</name>
-            <url>https://tallstech.jfrog.io/artifactory/hizir-libs-snapshot-local</url>
-        </snapshotRepository>
-    </distributionManagement>
 
 </project>
